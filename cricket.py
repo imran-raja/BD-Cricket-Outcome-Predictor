@@ -68,7 +68,7 @@ for rs in randomstate:
 	# test_scores_linear_svc.append((scores_linear_svc.mean()))
 	test_scores_rfc.append((scores_rfc.mean()))
 	test_scores_gnb.append((scores_gnb.mean()))
-	test_scores_gnb.append((scores_xgb.mean()))
+	test_scores_xgb.append((scores_xgb.mean()))
 
 average = reduce(lambda x, y: x + y, test_scores_gnb) / float(len(test_scores_gnb))
 cv_scores.append(average)
