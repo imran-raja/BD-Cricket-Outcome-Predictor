@@ -1,3 +1,9 @@
+'''
+@author: Imran Raja Singh Bhuiyan
+@maintainer: Imran Raja Singh Bhuiyan
+@date: 19.07.2017
+'''
+
 # loading libraries
 import numpy as np
 from sklearn.model_selection import cross_val_score
@@ -26,7 +32,6 @@ target = np.array(target)
 def rfc_func(max_features, color):
 	test_scores_rfc = []
 	n_est = [i for i in range(1,100)]
-
 
 	for rs in n_est:
 		kfold = model_selection.KFold(n_splits=5, shuffle=True, random_state=38)
