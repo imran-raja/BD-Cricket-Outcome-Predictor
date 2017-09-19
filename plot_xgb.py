@@ -1,3 +1,9 @@
+'''
+@author: Imran Raja Singh Bhuiyan
+@maintainer: Imran Raja Singh Bhuiyan
+@date: 19.07.2017
+'''
+
 # loading libraries
 import numpy as np
 from sklearn.model_selection import cross_val_score
