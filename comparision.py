@@ -1,3 +1,9 @@
+'''
+@author: Imran Raja Singh Bhuiyan
+@maintainer: Imran Raja Singh Bhuiyan
+@date: 19.07.2017
+'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -16,9 +22,8 @@ ind = np.arange(N)  # the x locations for the groups
 width = 0.35       # the width of the bars
 
 fig, ax = plt.subplots()
+
 rects1 = ax.bar(ind, acc_wo_stan, width, color='r')
-
-
 rects2 = ax.bar(ind + width, acc_w_stan, width, color='b')
 
 # Add some text for labels, title and axes ticks
