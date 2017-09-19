@@ -13,4 +13,5 @@ The following five major supervised machine learning algoritms were used:
 5. Extreme Gradient Boosting
 
 A comparision of the results obtained from the above mentioned algorithms is shown below:
-[https://user-images.githubusercontent.com/25418304/30602482-7b654928-9d86-11e7-800b-34b449b340e6.png]
+![alt text](https://user-images.githubusercontent.com/25418304/30602482-7b654928-9d86-11e7-800b-34b449b340e6.png)
+
